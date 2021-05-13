@@ -1,0 +1,57 @@
+.fin-projects
+	padding: 176px 0 413px 0
+	&__title-heading
+		margin-bottom: 2.3rem
+		font-size: 2.5rem
+		line-height: 140%
+	&__section-title
+		margin-bottom: 5rem
+	&__row
+		align-items: center
+.swiper
+	&-slide
+		display: flex
+		align-items: flex-start
+		flex-wrap: wrap
+		&__text
+			flex-basis: 34%
+			padding-bottom: 3.6rem
+			&--bot
+				margin-bottom: 6.5rem
+		&__heading
+			font-size: 1.8rem
+			line-height: 138.6%
+			font-family: 'Yeseva One', cursive
+			font-weight: normal
+			color: $primary
+			text-transform: uppercase
+			margin-bottom: 0.6rem
+		&__value
+			font-size: 1.5rem
+			line-height: 135.8%
+	&-container-horizontal>.swiper-pagination-bullets
+		width: auto
+		bottom: 0
+	&-container-horizontal>.swiper-pagination-bullets>.swiper-pagination-bullet
+		margin: 0 9px
+	&-pagination
+		&-bullet
+			width: 9px
+			height: 9px
+			background-color: rgba($light, 0.3)
+			&-active
+				background-color: $light
+	&-button
+		&-prev, &-next
+			bottom: 0
+			left: 0
+			top: auto
+			background-size: 42px
+			width: 42px
+			height: 14px
+			&::after
+				display: none
+		&-prev
+			background: url('../img/arrow-prev.svg') no-repeat center
+		&-next
+			background: url('../img/arrow-next.svg') no-repeat center

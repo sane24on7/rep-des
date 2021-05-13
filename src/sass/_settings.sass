@@ -1,0 +1,89 @@
+*, *:before, *:after
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+a, a:active, a:visited
+	text-decoration: none
+button
+	outline: none
+img
+	max-width: 100%
+html
+	font-size: 10px
+body
+	font-family: 'Futura Book', sans-serif
+	font-size: 1.4rem
+.section
+	&--dark
+		background-color: $dark
+		color: $light
+	&-title
+		text-align: center
+		&--left
+			text-align: left
+		&--light
+			color: $light
+		&__heading
+			font-family: 'Yeseva One', cursive
+			text-transform: uppercase
+			font-weight: normal
+			font-size: 2rem
+			margin-bottom: 1.3rem
+			line-height: 138.6%
+			&--primary
+				color: $primary
+		&__word
+			display: flex
+			align-items: center
+			&::after
+				content: ''
+				width: 90px
+				height: 1px
+				background-color: $primary
+				margin-left: 32px
+		&__text
+			font-size: 1.8rem
+			line-height: 158.5%
+			max-width: 44.2rem
+		&__image
+			display: flex
+			justify-content: center
+			align-items: center
+			&::before, &::after
+				content: ''
+				width: 32px
+				height: 1px
+				background-color: $primary
+				margin: 0 10px
+		&__subtitle
+			margin: auto
+			font-size: 2rem
+			color: $dark
+.card
+	&__text
+		position: relative
+		margin: 0 auto
+		box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03)
+		background-color: $light
+		margin-top: -12.9rem
+	&__title
+		font-family: 'Yeseva One', cursive
+		font-size: 1.8rem
+		font-weight: normal
+		margin: 0
+	&__list
+		margin: 0
+		padding: 0 0 0 1.4rem
+		color: $secondary
+		line-height: 169.8%
+		font-size: 1.5rem
+	&__pricetag
+		min-width: 22.8rem
+		position: absolute
+		left: 0
+		font-family: 'Yeseva One', cursive
+		font-size: 1.8rem
+		color: $light
+		text-transform: uppercase
+		font-weight: normal
+		background-color: $primary

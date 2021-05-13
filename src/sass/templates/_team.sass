@@ -1,0 +1,101 @@
+.team
+	padding: 9.515rem 0
+	margin-top: -50.2rem
+	&__section-title
+		color: $light
+	&__subtitle
+		margin-top: 2.2rem
+		color: $light
+	&__subtitle
+		max-width: 44.8rem
+		margin-bottom: 8.6rem
+	&__img-wrap
+		position: relative
+		min-width: 27.2rem
+		min-height: 34rem
+		overflow: hidden
+	&__image
+		height: 100%
+		object-fit: cover
+		object-position: 50%  10%
+	&__card
+		position: relative
+		&--project
+			&::after
+				content: ''
+				position: absolute
+				top: -36px
+				left: -36px
+				background: $primary url('../img/team/idea.svg') no-repeat center
+				width: 70px
+				height: 70px
+				box-shadow: 0px 5px 20px rgba($primary, 0.5)
+		&--design
+			&::after
+				content: ''
+				position: absolute
+				top: -36px
+				left: -36px
+				background: $primary url('../img/team/pen.svg') no-repeat center
+				width: 70px
+				height: 70px
+				box-shadow: 0px 5px 20px rgba($primary, 0.5)
+		&--brigadier
+			&::after
+				content: ''
+				position: absolute
+				top: -36px
+				left: -36px
+				background: $primary url('../img/team/portfolio.svg') no-repeat center
+				width: 70px
+				height: 70px
+				box-shadow: 0px 5px 20px rgba($primary, 0.5)
+		&-text
+			position: relative
+			background-color: $light
+			max-width: 23.3rem
+			box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05)
+			margin-top: -8.4rem
+			padding: 2.2rem 2.1rem 2.4rem
+		&-title
+			font-family: 'Yeseva One', cursive
+			font-size: 1.8rem
+			margin-bottom: 0.9rem
+			font-weight: normal
+			text-align: center
+		&-job
+			display: block
+			font-size: 1.8rem
+			color: $secondary
+			text-align: center
+			margin-bottom: 4rem
+		&-tag
+			position: absolute
+			bottom: 0
+			left: 0
+			display: block
+			background-color: $primary
+			font-family: 'Yeseva One', cursive
+			font-size: 1.3rem
+			font-weight: normal
+			text-transform: uppercase
+			color: $light
+			padding: 1.5rem
+			text-align: center
+			width: 100%
+	&__text
+		max-width: 56.8rem
+		font-size: 2rem
+		line-height: 169.8%
+		text-align: center
+		margin: auto
+		&::before
+			content: ''
+			display: block
+			width: 55px
+			height: 2px
+			background-color: $primary
+			margin: auto
+			margin-top: 5.3rem
+			margin-bottom: 1.25rem
+			
